@@ -2,7 +2,7 @@ export type config = {
     word: string,
     pauseFor?: number,
     deleteChars?: number,
-    deleteAll?: number,
+    deleteAll?: boolean,
 };
 
 

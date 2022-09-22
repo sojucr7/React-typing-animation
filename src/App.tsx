@@ -7,17 +7,24 @@ function App() {
 
   const config=[
     {
-      word:"Where do I start?",
-      pauseFor:1000
+      word:"Where do I start?",      
+      deleteAll:true,
+      pauseFor:.5,
     },
     {
-      word:"\n\nfunctio",
-      deleteChars:7
+      word:"Youtube tutorials?",      
+      deleteAll:true,
+      pauseFor:.5
     },
     {
-      word:"\n\n\n\nconst temp",
-      pauseFor:150,
-      deleteAll:10
+      word:"udemy courses??",      
+      deleteAll:true  ,
+      pauseFor:1,
+    },
+    {
+      word:"No,Let's start by building some projects",  
+      pauseFor:1,    
+      deleteAll:true
     }
   ]
   return (
